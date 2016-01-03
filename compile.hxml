@@ -1,0 +1,5 @@
+-cp src
+-cp ../hxPixel
+
+-cpp bin
+-main info.heriet.gizac.Gizac

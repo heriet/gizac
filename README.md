@@ -3,7 +3,8 @@ gizac
 
 Pixel Art Image Converter.
 
-* convert .edg to .psd
+* convert edg/gal to gif
+* convert edg/gal to psd
 
 required [hxPixel](https://github.com/heriet/hxPixel) 
 

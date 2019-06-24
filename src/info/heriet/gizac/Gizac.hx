@@ -23,16 +23,16 @@
 package info.heriet.gizac;
 
 import cpp.Lib;
-import hxcpp.StaticStd;
+import cpp.link.StaticStd;
 
 import info.heriet.gizac.command.PsdCommand;
 import info.heriet.gizac.command.GifCommand;
 
 class Gizac 
 {
-	
-	static function main() 
-	{
+
+    static function main() 
+    {
         var args = Sys.args();
         
         if (args.length < 2) {
@@ -53,11 +53,12 @@ class Gizac
             default:
                 printUsage();
         }
-	}
-    
+    }
+
     static function printUsage()
     {
         Lib.println("Usage: gizac <command> image-file...");
+        Lib.println("Version 0.2.1");
         Lib.println("");
         Lib.println("Commands:");
         Lib.println("  gif      Convert edg/gal to gif");

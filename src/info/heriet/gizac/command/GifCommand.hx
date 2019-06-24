@@ -23,8 +23,8 @@
 package info.heriet.gizac.command;
 
 import cpp.Lib;
-import hxcpp.StaticStd;
-import hxcpp.StaticRegexp;
+import cpp.link.StaticStd;
+import cpp.link.StaticRegexp;
 
 import haxe.io.Bytes;
 import hxpixel.images.edg.EdgDecoder;
